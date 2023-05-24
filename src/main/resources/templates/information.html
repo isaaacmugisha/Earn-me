@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<meta charset="ISO-8859-1">
+<title>driver information</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(15, 100, 100);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+</style>
+<body>
+
+<h3>Driver Information</h3>
+
+<div>
+  <form action="save" method="post"> 
+   <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="first name..">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="last name">
+    <label for="telephone">licenseId</label>
+    <input type="text" id="licenseId" name="licenseId" placeholder="licenseId">
+   <label for="telephone">Telephone</label>
+   <input type="text" id="telephone" name="telephone" placeholder="telephone">
+    <label for="picture">AccidentPicture</label>
+    <input type="file" id="picture" name="parish" placeholder="AccidentPicture">
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="email">
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="password">
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+
+
+</body>
+</html>

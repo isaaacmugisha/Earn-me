@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+
+<style>
+input[type=text], select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(53, 23, 80);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(22, 1,70);
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+body {
+  /*background-image: url('');*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+<body>
+
+<h3>Gerayo Amahoro/Safe Journey</h3>
+<a th:href = "@{/}"> signup</a>
+
+<div>
+
+  <form action="Login">
+<select>
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder=" email">
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="password">
+
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+
+
+</body>
+</html>
